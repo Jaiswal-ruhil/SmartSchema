@@ -12,6 +12,8 @@ setup(
     description="Progressive update for schema",
     author="Jaiswal-ruhil",
     author_email="cschultz@example.com",
+    scripts=['SmartSchema.py'],
+    exclude=["*.tests", "*.tests.*", "tests.*", "tests", "test"],
     packages=find_packages(),
     long_description=long_description,
     classifiers=[

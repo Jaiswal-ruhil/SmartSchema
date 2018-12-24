@@ -1,4 +1,6 @@
 README.rst
+SmartSchema.py
+setup.cfg
 setup.py
 python3_SmartSchema.egg-info/PKG-INFO
 python3_SmartSchema.egg-info/SOURCES.txt
