@@ -8,7 +8,7 @@ except IOError:
 
 setup(
     name="python3-SmartSchema",
-    version="0.1.6",
+    version="1.0.1",
     description="Progressive update for schema",
     author="Jaiswal-ruhil",
     author_email="ruhiljaiswal@gmail.com",
@@ -20,5 +20,8 @@ setup(
     url="https://pypi.org/project/python3-SmartSchema/",
     classifiers=[
         "Programming Language :: Python :: 3.6",
+    ],
+    install_requires=[
+        'jsonschema>=2.6.0'
     ]
 )

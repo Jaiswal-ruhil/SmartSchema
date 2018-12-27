@@ -5,3 +5,4 @@ dist
 .vscode
 build
 python3_SmartSchema.egg-info
+Dockerfile
