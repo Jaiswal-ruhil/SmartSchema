@@ -8,7 +8,7 @@ except IOError:
 
 setup(
     name="python3-SmartSchema",
-    version="1.0.1",
+    version="1.1.0",
     description="Progressive update for schema",
     author="Jaiswal-ruhil",
     author_email="ruhiljaiswal@gmail.com",

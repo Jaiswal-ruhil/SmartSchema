@@ -53,5 +53,9 @@ class SmartSchema(object):
         finally:
             log("run final at cycle: ", cycles)
 
+    def invoke(self, instance):
+        return self._types[self.defination.get("type", "string")](
+            self.defination, instance, instance)
+
     def validate(self, instance):
         return validate(instance, self.defination)
