@@ -23,9 +23,6 @@ class SmartSchema(object):
         for index, value in enumerate(pointer):
             pointer[index] = callback(defination, value, instance)
         return pointer
-        # for x in pointer:
-        # pass
-        # return pointer
 
     def resolveobject(self, defination, pointer, instance):
         if 'accessor' in defination:
